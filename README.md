@@ -3,11 +3,18 @@
 This project demonstrates how to use [Playwright](https://playwright.dev/) for end-to-end (E2E) testing in a Java application built with Spring.
 
 ## Overview
+Playwright is a modern browser automation library that enables reliable end-to-end testing across Chromium, Firefox, and WebKit. Combined with Spring, it allows Java developers to write robust E2E tests for web applications.
 
 ## Key Features
+- Cross-browser automation (Chromium, Firefox, WebKit)
+- Fast and reliable execution with auto-waiting
+- Supports single-page applications and dynamic content
+- Easy headless/headed mode switching
+- Advanced features: browser context isolation, network interception, device emulation
 
 ## Example Usage
-See `src/main/java/com/kerki/playwrite/example/Example.java` for a sample Spring service using Playwright.
+See `src/test/java/com/kerki/playwrite/PlaywriteApplicationTests.java` for a sample Playwright test using Spring Boot.
+The test uses a page object (`MainPage`) for better structure and maintainability.
 
 ## Getting Started
 1. Add Playwright to your Maven dependencies.
